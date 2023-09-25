@@ -4,7 +4,7 @@ IITP-2021-0-00256 클라우드 자원의 지능적 관리를 위한 이종 가�
 
 ### Directory Explanation
 
-* Dataset : 워크로드 예측을 위한 알리바바사의 벤치마크 데이터셋 폴더
+* Dataset : 워크로드 예측을 위한 알리바바 사의 벤치마크 데이터셋 폴더
 
   > alibabaCloudTrace.py : 모델 학습을 위한 벤치마크 데이터셋 로드 코드
 
