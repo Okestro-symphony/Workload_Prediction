@@ -8,6 +8,7 @@ IITP-2021-0-00256 클라우드 자원의 지능적 관리를 위한 이종 가�
 
   > alibabaCloudTrace.py : 모델 학습을 위한 벤치마크 데이터셋 로드 코드
 
+
 * Workload_Prediction : 워크로드 예측을 위한 관련 코드 폴더
 
   > SYMPHONY_WORKLOAD_DECOMPOSITION_MAIN.py : Decomposition을 위해 사용되는 메인 함수 코드
