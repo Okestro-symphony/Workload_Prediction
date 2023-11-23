@@ -13,9 +13,6 @@ from kubernetes.client.models.v1_node_selector_requirement import V1NodeSelector
 
 client = kfp.Client(host='IP address')
 
-
-
-
 def decomposition(provider: str,
                 metric: str,
                 host_thr: int=60):
