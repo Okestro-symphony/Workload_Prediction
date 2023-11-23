@@ -12,6 +12,8 @@ sys.path.append(project_path)
 from pipelines.prediction.decompose.decomposer import Decomposition
 from utils.logs.log import standardLog
 from utils.result import Reporting
+
+
 standardLog = standardLog()
 reporting = Reporting(job='Time Series Decomposition')
 
