@@ -6,9 +6,6 @@ from elasticsearch import Elasticsearch
 import kubernetes.client
 client = kfp.Client(host='ip_address')
 
-
-
-
 def prediction():
     import sys
     sys.path.append('path/your/prediction')
