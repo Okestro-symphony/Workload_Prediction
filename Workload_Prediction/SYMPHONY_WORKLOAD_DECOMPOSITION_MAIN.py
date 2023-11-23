@@ -6,12 +6,12 @@ from configparser import ConfigParser
 from math import ceil
 import ray
 
-project_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(project_path)
-
 from pipelines.prediction.decompose.decomposer import Decomposition
 from utils.logs.log import standardLog
 from utils.result import Reporting
+
+project_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(project_path)
 
 
 standardLog = standardLog()
